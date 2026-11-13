@@ -1,0 +1,3 @@
+- insert:
+    - id: mac-mount
+      name: dsh-mac-mount

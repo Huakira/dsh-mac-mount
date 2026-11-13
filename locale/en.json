@@ -1,0 +1,6 @@
+{
+	"meta": {
+		"title": "Mac Session Mount",
+		"description": "Mount a local (Mac) folder as this session's workspace with /macmount"
+	}
+}

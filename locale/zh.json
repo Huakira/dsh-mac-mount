@@ -1,0 +1,6 @@
+{
+	"meta": {
+		"title": "Mac 会话挂载",
+		"description": "在会话里用 /macmount 挂载本地（Mac）文件夹为工作区"
+	}
+}
