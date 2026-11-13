@@ -24,7 +24,7 @@ Cowork 式的会话级本地文件夹挂载：给会话挂上你 Mac 上的某�
 ## 安装
 
 ```bash
-dsh plugin --profile web add @huakira/mac-mount
+dsh plugin --profile web add @huakirax/mac-mount
 ```
 
 前置条件：DSH 里已配置 dshmac MCP 服务器（本服务器把信任文件夹暴露给会话），否则挂载本身无意义。

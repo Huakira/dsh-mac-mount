@@ -1,5 +1,5 @@
 {
-  "name": "@huakira/mac-mount",
+  "name": "@huakirax/mac-mount",
   "version": "0.1.0",
   "description": "Cowork-style per-session mounting of a local (Mac) folder for DSH sessions",
   "type": "module",
