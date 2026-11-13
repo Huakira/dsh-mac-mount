@@ -1,24 +1,45 @@
 {
-	"name": "dsh-mac-mount",
-	"version": "0.1.0",
-	"description": "Cowork-style per-session mounting of a local (Mac) folder for DSH sessions",
-	"type": "module",
-	"main": "./index.js",
-	"exports": {
-		".": "./index.js",
-		"./locale/*": "./locale/*.json",
-		"./icon": "./icon.svg",
-		"./cordis.patch.yml": "./cordis.patch.yml"
-	},
-	"files": [
-		"index.js",
-		"cordis.patch.yml",
-		"locale/*.json",
-		"icon.svg"
-	],
-	"dsh": {
-		"bundle": {
-			"patch": "./cordis.patch.yml"
-		}
-	}
+  "name": "@huakira/mac-mount",
+  "version": "0.1.0",
+  "description": "Cowork-style per-session mounting of a local (Mac) folder for DSH sessions",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huakira/dsh-mac-mount.git"
+  },
+  "author": {
+    "name": "Huakira",
+    "email": "huakexie@proton.me"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "dsh": ">=0.2.2-rc.1 <0.3.0",
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness"
+  ]
 }
