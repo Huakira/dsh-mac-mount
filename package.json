@@ -1,6 +1,6 @@
 {
   "name": "@huakirax/dsh-mac-mount",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cowork-style per-session mounting of a local (Mac) folder for DSH sessions",
   "type": "module",
   "main": "./index.js",
